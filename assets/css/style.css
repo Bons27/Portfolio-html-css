@@ -58,6 +58,24 @@ nav .checkbox i {
   color: #3ab4ec;
   cursor: pointer;
 }
+nav .close-menu {
+  display: none;
+  position: absolute;
+  top: 1.2rem;
+  right: 1rem;
+  font-size: 2rem;
+  color: #3ab4ec;
+  cursor: pointer;
+}
+
+nav input:checked ~ .close-menu {
+  display: block;
+}
+
+nav input:checked ~ .checkbox {
+  display: none;
+}
+
 ul {
   display: flex;
   align-items: center;
