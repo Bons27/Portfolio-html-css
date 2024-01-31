@@ -1,2 +1,2 @@
-# Portfolio-html-css
-Il mio primo progetto di Portfolio utilizzando solo HTML e CSS
+# Progetto Portfolio Personale
+Ciao, mi chiamo Umberto e questo è il mio primo repository, riguardante il Portfolio fatto con HTML e CSS.
