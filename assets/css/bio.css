@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+
+#about-me {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+    font-family: 'Poppins', Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #3ab4ec;
+    background-size: 150% 150%;
+}
+
+#about-me .des-bio {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* CSS */
+@media (max-width: 600px) {
+    /* Stili per smartphone */
+    #about-me {
+        padding: 10px;
+    }
+
+    #about-me h2 {
+        font-size: 30px;
+    }
+
+    #about-me .des-bio {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    /* Stili per tablet */
+    #about-me {
+        padding: 15px;
+    }
+
+    #about-me h2 {
+        font-size: 40px;
+    }
+
+    #about-me .des-bio {
+        font-size: 1.1em;
+    }
+}
+
+@media (min-width: 901px) {
+    /* Stili per laptop */
+    #about-me {
+        padding: 20px;
+    }
+
+    #about-me h2 {
+        font-size: 50px;
+    }
+
+    #about-me .des-bio {
+        font-size: 1.2em;
+    }
+}

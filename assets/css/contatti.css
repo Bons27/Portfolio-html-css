@@ -1,0 +1,95 @@
+#contatti {
+    width: 100%;
+    padding: 20px;
+    background-color: #f3f3f3;
+    color: #333;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#contatti h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#contatti form {
+    width: 80%;
+    margin: auto;
+}
+
+#contatti label {
+    display: block;
+    margin-top: 20px;
+}
+
+#contatti input, #contatti textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#contatti input[type="submit"] {
+    margin-top: 20px;
+    background-color:#04a3ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    /* Stili per smartphone */
+    #contatti {
+        padding: 10px;
+    }
+
+    #contatti h2 {
+        font-size: 30px;
+    }
+
+    #contatti form {
+        width: 90%;
+    }
+
+    #contatti input, #contatti textarea {
+        padding: 5px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    /* Stili per tablet */
+    #contatti {
+        padding: 15px;
+    }
+
+    #contatti h2 {
+        font-size: 40px;
+    }
+
+    #contatti form {
+        width: 85%;
+    }
+
+    #contatti input, #contatti textarea {
+        padding: 7px;
+    }
+}
+
+@media (min-width: 901px) {
+    /* Stili per laptop */
+    #contatti {
+        padding: 20px;
+    }
+
+    #contatti h2 {
+        font-size: 50px;
+    }
+
+    #contatti form {
+        width: 80%;
+    }
+
+    #contatti input, #contatti textarea {
+        padding: 10px;
+    }
+}
