@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+  }
+  nav {
+    opacity: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f5f5f5;
+    z-index: 1;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .nav-content {
+    max-width: 2550px;
+    margin: auto;
+    padding: 1.2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  nav .logo a {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #3ab4ec;
+    transition: 0.3s;
+  }
+  nav .logo a:hover {
+    color: #04a3ff;
+  }
+  nav .checkbox {
+    display: none;
+  }
+  nav input {
+    display: none;
+  }
+  nav .checkbox i {
+    font-size: 2rem;
+    color: #3ab4ec;
+    cursor: pointer;
+  }
+  nav .close-menu {
+    display: none;
+    position: absolute;
+    top: 1.2rem;
+    right: 1rem;
+    font-size: 2rem;
+    color: #3ab4ec;
+    cursor: pointer;
+  }
+  
+  nav input:checked ~ .close-menu {
+    display: block;
+  }
+  
+  nav input:checked ~ .checkbox {
+    display: none;
+  }
+  
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    transition: left 0.3s;
+  }
+  ul li a {
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: 600;
+    color: #1f2937;
+    transition: 0.3s;
+  }
+  ul li a:hover {
+    color: #04a3ff;
+  }
+
+h1 {
+    text-align: center;
+    margin-top: 160px;
+    font-size: 2.5rem;
+    color: #3ab4ec;
+}
+.section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 150px;
+}
+
+.project {
+    flex: 0 1 calc(33.33% - 20px);
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.project h3 {
+    margin: 10px 0;
+}
+
+.project p {
+    margin: 10px 0;
+}
+
+.project a {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+}
