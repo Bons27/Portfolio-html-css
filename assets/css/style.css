@@ -76,6 +76,7 @@ nav input:checked ~ .checkbox {
   display: none;
 }
 
+
 ul {
   display: flex;
   align-items: center;
